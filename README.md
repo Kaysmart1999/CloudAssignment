@@ -7,7 +7,7 @@ AltSchool Cloud Assignment
    sudo useradd ToyeebTech
 2. I set a password for the user "jesse" using the `passwd` command:
    sudo passwd Toyeeb
-   ![UserAdd](Image/useradd.png)
+   ![UserAdd](Image/adduser.PNG)
 3. I check the new user added "tail /etc/passwd"
    ![Check User Add](Image/checkuseradd.png)
   
