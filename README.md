@@ -9,7 +9,7 @@ AltSchool Cloud Assignment
    sudo passwd Toyeeb
    ![UserAdd](Image/adduser.PNG)
 3. I check the new user added "tail /etc/passwd"
-   ![Check User Add](Image/checkuseradd.png)
+   ![Check User Add](Image/check new user.PNG)
   
 
 
