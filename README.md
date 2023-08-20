@@ -4,10 +4,13 @@ AltSchool Cloud Assignment
 ## Create a User
 
 1. I created a user named "jesse" using the `useradd` command:
-   sudo useradd jesse
-2. i set a password for the user "jesse" using the `passwd` command:
-   sudo passwd jesse
-[Imgur](https://i.imgur.com/4aNVWZt.jpg)
+   sudo useradd ToyeebTech
+2. I set a password for the user "jesse" using the `passwd` command:
+   sudo passwd Toyeeb
+   ![UserAdd](Image/useradd.png)
+3. I check the new user added "tail /etc/passwd"
+   ![Check User Add](Image/checkuseradd.png)
+  
 
 
 ## Set Expiry Date for the User
