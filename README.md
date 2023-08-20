@@ -3,10 +3,10 @@ AltSchool Cloud Assignment
 
 ## Create a User
 
-1. I created a user named "jesse" using the `useradd` command:
+1. I created a user named "ToyeebTech" using the `useradd` command:
    sudo useradd ToyeebTech
-2. I set a password for the user "jesse" using the `passwd` command:
-   sudo passwd Toyeeb
+2. I set a password for the user "ToyeebTech" using the `passwd` command:
+   sudo passwd ToyeebTech
    ![UserAdd](Image/adduser.PNG)
 3. I check the new user added "tail /etc/passwd"
    ![Check User Add](Image/checkuser.PNG)
@@ -15,7 +15,7 @@ AltSchool Cloud Assignment
 
 ## Set Expiry Date for the User
 
-1.  the expiry date of 2 weeks for the user "jesse" was created using the `chage` command:
+1.  the expiry date of 2 weeks for the user "ToyeebTech" was created using the `chage` command:
    sudo chage -E $(date -d '+2 weeks' +%Y-%m-%d) ToyeebTech
 2. To check the password history and account aging information:
    chage -l ToyeebTech
