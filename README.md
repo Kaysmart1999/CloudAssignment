@@ -57,6 +57,6 @@ plaintext
 
 1. I created a user named "Ttech" without a home directory using the `useradd` command with the `-M` option:
    sudo useradd -M Ttech
-2. To check the contents of the "/home" directory (to verify no home directory for "alenyika"):
+2. To check the contents of the "/home" directory (to verify no home directory for "Ttech"):
    ls -al /home
-[Imgur](https://i.imgur.com/R6RElm7.jpg)
+![Check](Image/homecheck.PNG)
